@@ -99,7 +99,7 @@ function formatTime(date) {
           width: 80vw;
           text-align: left;
         ">
-      欢迎来到放青松，如你所见，这是一个社区...请随意留下一条信息吧！(●'◡'●)什么都行，留言请按右侧蓝色编辑按钮
+      欢迎来到放青松，如你所见，这是一个社区(●ˇ∀ˇ●)
     </p>
     <el-button type="primary" @click="dialog = true">
       <el-icon size="large">

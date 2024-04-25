@@ -113,7 +113,7 @@ function formatTime(date) {
   </div>
 
   <!--发布内容 对话框-->
-  <el-dialog v-model="dialog" width="30vw" title="发布内容" draggable @close="dialogClose">
+  <el-dialog  class="dialog"v-model="dialog" width="30vw" title="发布内容" draggable @close="dialogClose">
     <el-form label-width="50">
       <el-form-item label="昵称:">
         <el-input v-model="data.nickname" placeholder="请输入昵称，如果为空，将自动填充‘某某’" />
@@ -133,4 +133,10 @@ function formatTime(date) {
 
 </template>
 
-<style></style>
+<style>
+@media screen and (max-width: 600px) {
+  .dialog{
+    width: 95vw;
+  }
+}
+</style>

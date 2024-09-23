@@ -65,7 +65,7 @@ const router = useRouter();
                 <el-button type="primary" @click="nevigateToSpaceSniffer">SpaceSniffer-Github</el-button>
                 <el-button type="primary" @click="nevigateToGeek">Geek官网</el-button>
              </div>
-             <p>ps：也可在电脑义诊群文件（来自 刘吉泽）中下载</p>
+             <p>ps：也可在电脑义诊群文件（来自 刘吉哲）中下载</p>
              <h3>四、Rainmeter+translucentTB</h3>
              <p>两款桌面美化工具</p>
              <div class="buttonArea">
